@@ -126,7 +126,7 @@ networkx==3.2.1
 newspaper3k==0.2.8
 nltk==3.8.1
 numexpr==2.9.0
-numpy==1.23.5
+numpy>=1.21,<1.24.0
 oauthlib==3.2.2
 onnx==1.15.0
 onnxruntime==1.17.0
