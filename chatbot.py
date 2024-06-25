@@ -36,7 +36,7 @@ def create_agent_executor(astra_vector_store, openai_api_key, stream_handler):
     retriever_tool = create_retriever_tool(
         retriever,
         "data_search",
-        "Search for information about diseases in the vector database and return the most relevant information."
+        "Search for information in the vector database and return the most relevant information."
     )
 
     prompt = ChatPromptTemplate.from_messages(
